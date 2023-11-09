@@ -9,18 +9,15 @@ public class Main {
         sample4();
     }
     public static void  sample4() {
-
             Scanner sc = new Scanner(System.in);
             System.out.println("Ievadi skaitli");
             int a = sc.nextInt();
             if (a >5){
                 System.out.println("###");
-    }else{  (a < 5) {
+    }else{
         System.out.println("####");
     }
-
     }
-
          public static void  sample3() {
             Scanner sc = new Scanner(System.in);
             System.out.println("Ievadi1 skaitli");
