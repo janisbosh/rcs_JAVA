@@ -6,8 +6,32 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        sample4();
+        homework2();
     }
+    public static void  homework2() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ievadi simbolu virkni");
+        String  input =  sc.nextLine();
+
+        if(input.length() >=5 && input.length() <=10) {
+            System.out.println("Ok");
+        } else{
+            System.out.println("Not ok");
+        }
+    }
+    public static void  homework1() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ievadi simbolu virkni");
+        String  input =  sc.nextLine();
+
+        if(input.length() > 10) {
+            System.out.println("###");
+        }else if(input.length() == 10){
+            System.out.println("#");
+        } else{
+            System.out.println("##");
+            }
+        }
     public static void  sample4() {
             Scanner sc = new Scanner(System.in);
             System.out.println("Ievadi skaitli");
