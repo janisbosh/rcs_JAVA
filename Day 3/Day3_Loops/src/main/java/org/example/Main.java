@@ -24,11 +24,11 @@ public class Main {
         input = sc.nextInt();
 
         while (input >= sum) {
-            sum += input;
+            System.out.println(input);
+            sum = sum + input;
             System.out.println("Ievadi skaitli");
             input = sc.nextInt();
                  }
-        System.out.println("Ievadi skaitli");
     }
 
     public static void md1() {
