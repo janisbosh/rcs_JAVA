@@ -6,10 +6,21 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        task4();
+        md1();
     }
 
-    public static void task4() {
+    public static void md1() {
+        Scanner sc = new Scanner(System.in);
+
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("$");
+            }
+                System.out.println();
+        }
+    }
+
+        public static void task4() {
         Scanner sc = new Scanner(System.in);
         String name ="ziema";
         String input = "";
