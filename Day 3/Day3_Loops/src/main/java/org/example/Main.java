@@ -3,10 +3,32 @@ package org.example;
 
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.Random;
+import java.util.Scanner;
 
+import java.util.Random;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        md1();
+                md2();
+    }
+
+    public static void md2() {
+        Scanner sc = new Scanner(System.in);
+        int sum =0;
+        int input;
+
+        System.out.println("Ievadi skaitli");
+        input = sc.nextInt();
+
+        while (input >= sum) {
+            sum += input;
+            System.out.println("Ievadi skaitli");
+            input = sc.nextInt();
+                 }
+        System.out.println("Ievadi skaitli");
     }
 
     public static void md1() {
