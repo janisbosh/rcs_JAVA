@@ -13,6 +13,6 @@ public class Main {
     }
 
     public static void sample1(String a, String b, String c) {
-        System.out.println(c + a + b);
+        System.out.println(c + b + a);
     }
 }
