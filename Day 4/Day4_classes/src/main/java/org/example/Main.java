@@ -18,7 +18,7 @@ public class Main {
         if ((a + b + c).length() > 15) {
             System.out.println(a + c);
         } else {
-            System.out.println("c + b + a);");
+            System.out.println(c + b + a);
         }
     }
 }
