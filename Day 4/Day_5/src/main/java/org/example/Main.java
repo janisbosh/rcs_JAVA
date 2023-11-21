@@ -5,17 +5,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int number1 =4;
-        int number2 =7;
-        int maxNumber = maxNumber(number1, number2);
+
+        int maxNumber = maxNumber(4, 8);
         System.out.println("Lielakais skaitlis:" + maxNumber);
     }
 
     public static int maxNumber (int a, int b) {
         if (a > b){
-        return a;
-    }else {
-        return b;
+            return a;
+        }else {
+            return b;
         }
 }
 
