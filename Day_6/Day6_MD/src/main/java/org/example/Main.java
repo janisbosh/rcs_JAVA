@@ -3,8 +3,8 @@ public class Main {
 
     public static int aprēķinātSummu(int[] masīvs) {
         int summa = 0;
-        for (int elements : masīvs) {
-            summa += elements;
+        for (int skaitlis : masīvs) {
+            summa += skaitlis;
         }
         return summa;
     }
