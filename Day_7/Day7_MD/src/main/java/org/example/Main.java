@@ -4,21 +4,21 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-
-        int number = enterNumber();
+        homework1();
+        int number = 0;
         System.out.println("enterNumber!: " + number);
     }
 
-    public static int enterNumber () {
+    public static int  homework1() {
         Scanner sc = new Scanner(System.in);
         int number = 0;
-        boolean isValidInput = false;
+        boolean isValid = false;
 
-        while (!isValidInput) {
+        while (!isValid) {
             System.out.println("Ievadiet skaitli!");
             try {
                 number = sc.nextInt();
-                isValidInput = true;
+                isValid = true;
             } catch (Exception e) {
                 System.out.println("Nepareizi, ievadi skaitli!");
                 sc.nextLine();
