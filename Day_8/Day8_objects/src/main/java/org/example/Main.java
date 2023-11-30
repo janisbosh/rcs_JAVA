@@ -34,12 +34,13 @@ public class Main {
         return new Tasks(name, lastName, course);
     }
 
-    public static void sample1() {
-        Tasks st = new Tasks("Jānis", "Bērziņš", 1);
-        st.print();
+
+    //public static void sample1() {
+       // Tasks st = new Tasks("Jānis", "Bērziņš", 1);
+
 
     }
-}
+
 
 
 
