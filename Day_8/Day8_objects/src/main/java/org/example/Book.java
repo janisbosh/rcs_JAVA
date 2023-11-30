@@ -7,7 +7,8 @@ public class Book {
     public int izdosanasgads;
 
     public void print() {
-        System.out.println(autors + " " + nosaukums);
+                System.out.println("Nosaukums: " + autors);
+        System.out.println("Nosaukums: " + nosaukums);
         System.out.println("Izdošanas gads: " + izdosanasgads);
     }
 }
