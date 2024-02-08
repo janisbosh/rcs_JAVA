@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS employee (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    vards TEXT,
+    uzvards TEXT,
+    darba_stazs INTEGER
+);
+
+INSERT INTO employee (vards, uzvards, darba_stazs) VALUES 
+('Janis', 'Berzs', 5),
+('Anna', 'Liepina', 8),
+('Peteris', 'Klava', 3);
