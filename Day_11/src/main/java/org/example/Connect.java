@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 public class Connect {
     public static Connection connect(){
-        String url = "jdbc:C:\\Users\\Janis\\Desktop\\TETIS SKOLA\\rcs_JAVA\\SQL\\SQL11.db";
+        String url = "jdbc:C:\\Users\\Janis\\Desktop\\SKOLA\\rcs_JAVA\\SQL\\SQL11.db";
         Connection conn = null;
         try{
             conn = DriverManager.getConnection(url);
