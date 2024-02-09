@@ -16,6 +16,7 @@ public class Connect {
             System.out.println("Success!");
         }catch(Exception e){
             System.out.println("Connection failed");
+            e.printStackTrace();
         }
         return conn;
     }

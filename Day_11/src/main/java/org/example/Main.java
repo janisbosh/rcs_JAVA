@@ -15,20 +15,24 @@ public class Main {
         Connect.readEmployees(conn);
 
 
-        Scanner scanner = new Scanner(System.in);
+        String vards;
+        String uzvards;
+        int darbaStazs;
+        try (Scanner scanner = new Scanner(System.in)) {
 
 
-        System.out.println("Ievadiet vārdu:");
-        String vards = scanner.nextLine();
+            System.out.println("Ievadiet vārdu:");
+            vards = scanner.nextLine();
 
-        System.out.println("Ievadiet uzvārdu:");
-        String uzvards = scanner.nextLine();
+            System.out.println("Ievadiet uzvārdu:");
+            uzvards = scanner.nextLine();
 
-        System.out.println("Ievadiet stāžu :");
-        int darbaStazs = scanner.nextInt();
+            System.out.println("Ievadiet stāžu :");
+            darbaStazs = scanner.nextInt();
+        }
 
 
-       Employee employee = new Employee(vards, uzvards, darbaStazs);
+        Employee employee = new Employee(vards, uzvards, darbaStazs);
 
         System.out.println("Vārds: " + employee.vards);
         System.out.println("Uzvārds: " + employee.uzvards);
